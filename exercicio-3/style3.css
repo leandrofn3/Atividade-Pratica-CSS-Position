@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    position: relative;
+    
+}
+
+.box-1 {
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    padding: 15px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+.box-2 {
+    background-color: black;
+    height: 150px;
+    width: 1400px;
+    color: white;
+    padding: 15px;
+    margin: 50px;
+    text-align: center;
+    overflow: auto;
+    border: 5px solid;
+    border-color: red;
+}
